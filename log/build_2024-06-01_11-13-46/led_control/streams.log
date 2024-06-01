@@ -1,0 +1,37 @@
+[4.777s] Invoking command in '/home/adavya/ros2_led_ws/src/led_control': PYTHONPATH=/home/adavya/ros2_led_ws/build/led_control/prefix_override:/home/adavya/ros2_led_ws/install/led_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/led_control build --build-base /home/adavya/ros2_led_ws/build/led_control/build install --record /home/adavya/ros2_led_ws/build/led_control/install.log --single-version-externally-managed install_data
+[5.997s] running egg_info
+[6.000s] creating ../../build/led_control/led_control.egg-info
+[6.003s] writing ../../build/led_control/led_control.egg-info/PKG-INFO
+[6.004s] writing dependency_links to ../../build/led_control/led_control.egg-info/dependency_links.txt
+[6.005s] writing entry points to ../../build/led_control/led_control.egg-info/entry_points.txt
+[6.006s] writing requirements to ../../build/led_control/led_control.egg-info/requires.txt
+[6.007s] writing top-level names to ../../build/led_control/led_control.egg-info/top_level.txt
+[6.007s] writing manifest file '../../build/led_control/led_control.egg-info/SOURCES.txt'
+[6.013s] reading manifest file '../../build/led_control/led_control.egg-info/SOURCES.txt'
+[6.019s] writing manifest file '../../build/led_control/led_control.egg-info/SOURCES.txt'
+[6.019s] running build
+[6.020s] running build_py
+[6.021s] creating /home/adavya/ros2_led_ws/build/led_control/build
+[6.022s] creating /home/adavya/ros2_led_ws/build/led_control/build/lib
+[6.022s] creating /home/adavya/ros2_led_ws/build/led_control/build/lib/led_control
+[6.023s] copying led_control/led_control_node.py -> /home/adavya/ros2_led_ws/build/led_control/build/lib/led_control
+[6.024s] copying led_control/__init__.py -> /home/adavya/ros2_led_ws/build/led_control/build/lib/led_control
+[6.025s] running install
+[6.026s] running install_lib
+[6.028s] creating /home/adavya/ros2_led_ws/install/led_control/lib/python3.10/site-packages/led_control
+[6.029s] copying /home/adavya/ros2_led_ws/build/led_control/build/lib/led_control/led_control_node.py -> /home/adavya/ros2_led_ws/install/led_control/lib/python3.10/site-packages/led_control
+[6.030s] copying /home/adavya/ros2_led_ws/build/led_control/build/lib/led_control/__init__.py -> /home/adavya/ros2_led_ws/install/led_control/lib/python3.10/site-packages/led_control
+[6.033s] byte-compiling /home/adavya/ros2_led_ws/install/led_control/lib/python3.10/site-packages/led_control/led_control_node.py to led_control_node.cpython-310.pyc
+[6.036s] byte-compiling /home/adavya/ros2_led_ws/install/led_control/lib/python3.10/site-packages/led_control/__init__.py to __init__.cpython-310.pyc
+[6.037s] running install_data
+[6.038s] creating /home/adavya/ros2_led_ws/install/led_control/share/ament_index
+[6.039s] creating /home/adavya/ros2_led_ws/install/led_control/share/ament_index/resource_index
+[6.044s] creating /home/adavya/ros2_led_ws/install/led_control/share/ament_index/resource_index/packages
+[6.045s] copying resource/led_control -> /home/adavya/ros2_led_ws/install/led_control/share/ament_index/resource_index/packages
+[6.046s] copying package.xml -> /home/adavya/ros2_led_ws/install/led_control/share/led_control
+[6.047s] running install_egg_info
+[6.047s] Copying ../../build/led_control/led_control.egg-info to /home/adavya/ros2_led_ws/install/led_control/lib/python3.10/site-packages/led_control-0.0.0-py3.10.egg-info
+[6.051s] running install_scripts
+[6.146s] Installing led_control_node script to /home/adavya/ros2_led_ws/install/led_control/lib/led_control
+[6.150s] writing list of installed files to '/home/adavya/ros2_led_ws/build/led_control/install.log'
+[6.391s] Invoked command in '/home/adavya/ros2_led_ws/src/led_control' returned '0': PYTHONPATH=/home/adavya/ros2_led_ws/build/led_control/prefix_override:/home/adavya/ros2_led_ws/install/led_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/led_control build --build-base /home/adavya/ros2_led_ws/build/led_control/build install --record /home/adavya/ros2_led_ws/build/led_control/install.log --single-version-externally-managed install_data

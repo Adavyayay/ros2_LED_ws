@@ -1,0 +1,146 @@
+[0.000000] (-) TimerEvent: {}
+[0.000719] (keyboard_input_node) JobQueued: {'identifier': 'keyboard_input_node', 'dependencies': OrderedDict()}
+[0.004998] (led_control) JobQueued: {'identifier': 'led_control', 'dependencies': OrderedDict()}
+[0.005318] (keyboard_input_node) JobStarted: {'identifier': 'keyboard_input_node'}
+[0.057299] (led_control) JobStarted: {'identifier': 'led_control'}
+[0.101248] (-) TimerEvent: {}
+[0.205901] (-) TimerEvent: {}
+[0.306859] (-) TimerEvent: {}
+[0.407759] (-) TimerEvent: {}
+[0.508674] (-) TimerEvent: {}
+[0.609781] (-) TimerEvent: {}
+[0.710430] (-) TimerEvent: {}
+[0.811124] (-) TimerEvent: {}
+[0.911759] (-) TimerEvent: {}
+[1.012399] (-) TimerEvent: {}
+[1.113040] (-) TimerEvent: {}
+[1.213716] (-) TimerEvent: {}
+[1.314564] (-) TimerEvent: {}
+[1.415291] (-) TimerEvent: {}
+[1.516354] (-) TimerEvent: {}
+[1.617053] (-) TimerEvent: {}
+[1.717867] (-) TimerEvent: {}
+[1.818601] (-) TimerEvent: {}
+[1.919264] (-) TimerEvent: {}
+[2.019882] (-) TimerEvent: {}
+[2.120524] (-) TimerEvent: {}
+[2.221156] (-) TimerEvent: {}
+[2.321828] (-) TimerEvent: {}
+[2.422492] (-) TimerEvent: {}
+[2.523341] (-) TimerEvent: {}
+[2.625401] (-) TimerEvent: {}
+[2.726747] (-) TimerEvent: {}
+[2.828307] (-) TimerEvent: {}
+[2.929354] (-) TimerEvent: {}
+[3.031196] (-) TimerEvent: {}
+[3.133020] (-) TimerEvent: {}
+[3.233807] (-) TimerEvent: {}
+[3.334533] (-) TimerEvent: {}
+[3.435171] (-) TimerEvent: {}
+[3.535909] (-) TimerEvent: {}
+[3.636618] (-) TimerEvent: {}
+[3.737330] (-) TimerEvent: {}
+[3.838307] (-) TimerEvent: {}
+[3.939085] (-) TimerEvent: {}
+[4.039798] (-) TimerEvent: {}
+[4.140623] (-) TimerEvent: {}
+[4.241445] (-) TimerEvent: {}
+[4.342187] (-) TimerEvent: {}
+[4.443196] (-) TimerEvent: {}
+[4.544754] (-) TimerEvent: {}
+[4.647385] (-) TimerEvent: {}
+[4.750208] (-) TimerEvent: {}
+[4.788191] (keyboard_input_node) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/keyboard_input_node', 'build', '--build-base', '/home/adavya/ros2_led_ws/build/keyboard_input_node/build', 'install', '--record', '/home/adavya/ros2_led_ws/build/keyboard_input_node/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/adavya/ros2_led_ws/src/keyboard_input_node', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'adavya', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/adavya', 'OLDPWD': '/home/adavya', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1552', 'SYSTEMD_EXEC_PID': '1991', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3616', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/adavya/ros2_led_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'adavya', 'JOURNAL_STREAM': '8:27260', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'adavya', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/adavya-Rpi:@/tmp/.ICE-unix/1738,unix/adavya-Rpi:/tmp/.ICE-unix/1738', 'INVOCATION_ID': 'f7e33c7bbf1941959ecdfe97e38529dc', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.KB9GO2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:57fb5e35-8b9d-4277-8c23-95fe74220d5c', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/adavya/ros2_led_ws/build/keyboard_input_node', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/adavya/ros2_led_ws/build/keyboard_input_node/prefix_override:/home/adavya/ros2_led_ws/install/keyboard_input_node/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[4.826789] (led_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/led_control', 'build', '--build-base', '/home/adavya/ros2_led_ws/build/led_control/build', 'install', '--record', '/home/adavya/ros2_led_ws/build/led_control/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/adavya/ros2_led_ws/src/led_control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'adavya', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/adavya', 'OLDPWD': '/home/adavya', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1552', 'SYSTEMD_EXEC_PID': '1991', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3616', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/adavya/ros2_led_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'adavya', 'JOURNAL_STREAM': '8:27260', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'adavya', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/adavya-Rpi:@/tmp/.ICE-unix/1738,unix/adavya-Rpi:/tmp/.ICE-unix/1738', 'INVOCATION_ID': 'f7e33c7bbf1941959ecdfe97e38529dc', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.KB9GO2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:57fb5e35-8b9d-4277-8c23-95fe74220d5c', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/adavya/ros2_led_ws/build/led_control', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/adavya/ros2_led_ws/build/led_control/prefix_override:/home/adavya/ros2_led_ws/install/led_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[4.850631] (-) TimerEvent: {}
+[4.951565] (-) TimerEvent: {}
+[5.052277] (-) TimerEvent: {}
+[5.153037] (-) TimerEvent: {}
+[5.253855] (-) TimerEvent: {}
+[5.354572] (-) TimerEvent: {}
+[5.455274] (-) TimerEvent: {}
+[5.556034] (-) TimerEvent: {}
+[5.656701] (-) TimerEvent: {}
+[5.757421] (-) TimerEvent: {}
+[5.858173] (-) TimerEvent: {}
+[5.958910] (-) TimerEvent: {}
+[6.051860] (keyboard_input_node) StdoutLine: {'line': b'running egg_info\n'}
+[6.054073] (led_control) StdoutLine: {'line': b'running egg_info\n'}
+[6.055754] (keyboard_input_node) StdoutLine: {'line': b'creating ../../build/keyboard_input_node/keyboard_input_node.egg-info\n'}
+[6.056698] (keyboard_input_node) StdoutLine: {'line': b'writing ../../build/keyboard_input_node/keyboard_input_node.egg-info/PKG-INFO\n'}
+[6.057627] (led_control) StdoutLine: {'line': b'creating ../../build/led_control/led_control.egg-info\n'}
+[6.058259] (keyboard_input_node) StdoutLine: {'line': b'writing dependency_links to ../../build/keyboard_input_node/keyboard_input_node.egg-info/dependency_links.txt\n'}
+[6.059013] (-) TimerEvent: {}
+[6.060046] (led_control) StdoutLine: {'line': b'writing ../../build/led_control/led_control.egg-info/PKG-INFO\n'}
+[6.060777] (keyboard_input_node) StdoutLine: {'line': b'writing entry points to ../../build/keyboard_input_node/keyboard_input_node.egg-info/entry_points.txt\n'}
+[6.061469] (keyboard_input_node) StdoutLine: {'line': b'writing requirements to ../../build/keyboard_input_node/keyboard_input_node.egg-info/requires.txt\n'}
+[6.062053] (led_control) StdoutLine: {'line': b'writing dependency_links to ../../build/led_control/led_control.egg-info/dependency_links.txt\n'}
+[6.062540] (keyboard_input_node) StdoutLine: {'line': b'writing top-level names to ../../build/keyboard_input_node/keyboard_input_node.egg-info/top_level.txt\n'}
+[6.063131] (led_control) StdoutLine: {'line': b'writing entry points to ../../build/led_control/led_control.egg-info/entry_points.txt\n'}
+[6.063579] (keyboard_input_node) StdoutLine: {'line': b"writing manifest file '../../build/keyboard_input_node/keyboard_input_node.egg-info/SOURCES.txt'\n"}
+[6.063978] (led_control) StdoutLine: {'line': b'writing requirements to ../../build/led_control/led_control.egg-info/requires.txt\n'}
+[6.064385] (led_control) StdoutLine: {'line': b'writing top-level names to ../../build/led_control/led_control.egg-info/top_level.txt\n'}
+[6.064791] (led_control) StdoutLine: {'line': b"writing manifest file '../../build/led_control/led_control.egg-info/SOURCES.txt'\n"}
+[6.068830] (keyboard_input_node) StdoutLine: {'line': b"reading manifest file '../../build/keyboard_input_node/keyboard_input_node.egg-info/SOURCES.txt'\n"}
+[6.070702] (led_control) StdoutLine: {'line': b"reading manifest file '../../build/led_control/led_control.egg-info/SOURCES.txt'\n"}
+[6.072593] (keyboard_input_node) StdoutLine: {'line': b"writing manifest file '../../build/keyboard_input_node/keyboard_input_node.egg-info/SOURCES.txt'\n"}
+[6.073283] (keyboard_input_node) StdoutLine: {'line': b'running build\n'}
+[6.073806] (keyboard_input_node) StdoutLine: {'line': b'running build_py\n'}
+[6.074579] (keyboard_input_node) StdoutLine: {'line': b'creating /home/adavya/ros2_led_ws/build/keyboard_input_node/build\n'}
+[6.075407] (keyboard_input_node) StdoutLine: {'line': b'creating /home/adavya/ros2_led_ws/build/keyboard_input_node/build/lib\n'}
+[6.076080] (led_control) StdoutLine: {'line': b"writing manifest file '../../build/led_control/led_control.egg-info/SOURCES.txt'\n"}
+[6.076845] (led_control) StdoutLine: {'line': b'running build\n'}
+[6.077281] (led_control) StdoutLine: {'line': b'running build_py\n'}
+[6.077966] (keyboard_input_node) StdoutLine: {'line': b'creating /home/adavya/ros2_led_ws/build/keyboard_input_node/build/lib/keyboard_input_node\n'}
+[6.078399] (keyboard_input_node) StdoutLine: {'line': b'copying keyboard_input_node/keyboard_input_node.py -> /home/adavya/ros2_led_ws/build/keyboard_input_node/build/lib/keyboard_input_node\n'}
+[6.079136] (led_control) StdoutLine: {'line': b'creating /home/adavya/ros2_led_ws/build/led_control/build\n'}
+[6.079586] (led_control) StdoutLine: {'line': b'creating /home/adavya/ros2_led_ws/build/led_control/build/lib\n'}
+[6.080029] (led_control) StdoutLine: {'line': b'creating /home/adavya/ros2_led_ws/build/led_control/build/lib/led_control\n'}
+[6.080671] (keyboard_input_node) StdoutLine: {'line': b'copying keyboard_input_node/__init__.py -> /home/adavya/ros2_led_ws/build/keyboard_input_node/build/lib/keyboard_input_node\n'}
+[6.081132] (led_control) StdoutLine: {'line': b'copying led_control/led_control_node.py -> /home/adavya/ros2_led_ws/build/led_control/build/lib/led_control\n'}
+[6.081598] (keyboard_input_node) StdoutLine: {'line': b'running install\n'}
+[6.081987] (led_control) StdoutLine: {'line': b'copying led_control/__init__.py -> /home/adavya/ros2_led_ws/build/led_control/build/lib/led_control\n'}
+[6.082593] (led_control) StdoutLine: {'line': b'running install\n'}
+[6.083281] (keyboard_input_node) StdoutLine: {'line': b'running install_lib\n'}
+[6.083840] (led_control) StdoutLine: {'line': b'running install_lib\n'}
+[6.084505] (keyboard_input_node) StdoutLine: {'line': b'creating /home/adavya/ros2_led_ws/install/keyboard_input_node/lib/python3.10/site-packages/keyboard_input_node\n'}
+[6.085044] (keyboard_input_node) StdoutLine: {'line': b'copying /home/adavya/ros2_led_ws/build/keyboard_input_node/build/lib/keyboard_input_node/keyboard_input_node.py -> /home/adavya/ros2_led_ws/install/keyboard_input_node/lib/python3.10/site-packages/keyboard_input_node\n'}
+[6.085599] (led_control) StdoutLine: {'line': b'creating /home/adavya/ros2_led_ws/install/led_control/lib/python3.10/site-packages/led_control\n'}
+[6.086148] (led_control) StdoutLine: {'line': b'copying /home/adavya/ros2_led_ws/build/led_control/build/lib/led_control/led_control_node.py -> /home/adavya/ros2_led_ws/install/led_control/lib/python3.10/site-packages/led_control\n'}
+[6.086874] (keyboard_input_node) StdoutLine: {'line': b'copying /home/adavya/ros2_led_ws/build/keyboard_input_node/build/lib/keyboard_input_node/__init__.py -> /home/adavya/ros2_led_ws/install/keyboard_input_node/lib/python3.10/site-packages/keyboard_input_node\n'}
+[6.087441] (led_control) StdoutLine: {'line': b'copying /home/adavya/ros2_led_ws/build/led_control/build/lib/led_control/__init__.py -> /home/adavya/ros2_led_ws/install/led_control/lib/python3.10/site-packages/led_control\n'}
+[6.091100] (led_control) StdoutLine: {'line': b'byte-compiling /home/adavya/ros2_led_ws/install/led_control/lib/python3.10/site-packages/led_control/led_control_node.py to led_control_node.cpython-310.pyc\n'}
+[6.091749] (keyboard_input_node) StdoutLine: {'line': b'byte-compiling /home/adavya/ros2_led_ws/install/keyboard_input_node/lib/python3.10/site-packages/keyboard_input_node/keyboard_input_node.py to keyboard_input_node.cpython-310.pyc\n'}
+[6.093058] (keyboard_input_node) StdoutLine: {'line': b'byte-compiling /home/adavya/ros2_led_ws/install/keyboard_input_node/lib/python3.10/site-packages/keyboard_input_node/__init__.py to __init__.cpython-310.pyc\n'}
+[6.093664] (led_control) StdoutLine: {'line': b'byte-compiling /home/adavya/ros2_led_ws/install/led_control/lib/python3.10/site-packages/led_control/__init__.py to __init__.cpython-310.pyc\n'}
+[6.094487] (led_control) StdoutLine: {'line': b'running install_data\n'}
+[6.095312] (keyboard_input_node) StdoutLine: {'line': b'running install_data\n'}
+[6.095763] (keyboard_input_node) StdoutLine: {'line': b'creating /home/adavya/ros2_led_ws/install/keyboard_input_node/share/ament_index\n'}
+[6.096186] (led_control) StdoutLine: {'line': b'creating /home/adavya/ros2_led_ws/install/led_control/share/ament_index\n'}
+[6.096648] (led_control) StdoutLine: {'line': b'creating /home/adavya/ros2_led_ws/install/led_control/share/ament_index/resource_index\n'}
+[6.097216] (keyboard_input_node) StdoutLine: {'line': b'creating /home/adavya/ros2_led_ws/install/keyboard_input_node/share/ament_index/resource_index\n'}
+[6.097651] (keyboard_input_node) StdoutLine: {'line': b'creating /home/adavya/ros2_led_ws/install/keyboard_input_node/share/ament_index/resource_index/packages\n'}
+[6.101220] (led_control) StdoutLine: {'line': b'creating /home/adavya/ros2_led_ws/install/led_control/share/ament_index/resource_index/packages\n'}
+[6.102177] (keyboard_input_node) StdoutLine: {'line': b'copying resource/keyboard_input_node -> /home/adavya/ros2_led_ws/install/keyboard_input_node/share/ament_index/resource_index/packages\n'}
+[6.102916] (led_control) StdoutLine: {'line': b'copying resource/led_control -> /home/adavya/ros2_led_ws/install/led_control/share/ament_index/resource_index/packages\n'}
+[6.103585] (keyboard_input_node) StdoutLine: {'line': b'copying package.xml -> /home/adavya/ros2_led_ws/install/keyboard_input_node/share/keyboard_input_node\n'}
+[6.103962] (led_control) StdoutLine: {'line': b'copying package.xml -> /home/adavya/ros2_led_ws/install/led_control/share/led_control\n'}
+[6.104309] (keyboard_input_node) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.104634] (led_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.104966] (led_control) StdoutLine: {'line': b'Copying ../../build/led_control/led_control.egg-info to /home/adavya/ros2_led_ws/install/led_control/lib/python3.10/site-packages/led_control-0.0.0-py3.10.egg-info\n'}
+[6.105339] (keyboard_input_node) StdoutLine: {'line': b'Copying ../../build/keyboard_input_node/keyboard_input_node.egg-info to /home/adavya/ros2_led_ws/install/keyboard_input_node/lib/python3.10/site-packages/keyboard_input_node-0.0.0-py3.10.egg-info\n'}
+[6.109050] (led_control) StdoutLine: {'line': b'running install_scripts\n'}
+[6.109613] (keyboard_input_node) StdoutLine: {'line': b'running install_scripts\n'}
+[6.159224] (-) TimerEvent: {}
+[6.202110] (keyboard_input_node) StdoutLine: {'line': b'Installing keyboard_input_node script to /home/adavya/ros2_led_ws/install/keyboard_input_node/lib/keyboard_input_node\n'}
+[6.203010] (led_control) StdoutLine: {'line': b'Installing led_control_node script to /home/adavya/ros2_led_ws/install/led_control/lib/led_control\n'}
+[6.204466] (keyboard_input_node) StdoutLine: {'line': b"writing list of installed files to '/home/adavya/ros2_led_ws/build/keyboard_input_node/install.log'\n"}
+[6.206366] (led_control) StdoutLine: {'line': b"writing list of installed files to '/home/adavya/ros2_led_ws/build/led_control/install.log'\n"}
+[6.259714] (-) TimerEvent: {}
+[6.361883] (-) TimerEvent: {}
+[6.380696] (keyboard_input_node) CommandEnded: {'returncode': 0}
+[6.444729] (keyboard_input_node) JobEnded: {'identifier': 'keyboard_input_node', 'rc': 0}
+[6.448663] (led_control) CommandEnded: {'returncode': 0}
+[6.462235] (-) TimerEvent: {}
+[6.476936] (led_control) JobEnded: {'identifier': 'led_control', 'rc': 0}
+[6.480336] (-) EventReactorShutdown: {}

@@ -1,0 +1,24 @@
+[4.316s] Invoking command in '/home/adavya/ros2_led_ws/src/led_control': PYTHONPATH=/home/adavya/ros2_led_ws/build/led_control/prefix_override:/home/adavya/ros2_led_ws/install/led_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/led_control build --build-base /home/adavya/ros2_led_ws/build/led_control/build install --record /home/adavya/ros2_led_ws/build/led_control/install.log --single-version-externally-managed install_data
+[5.594s] running egg_info
+[5.598s] writing ../../build/led_control/led_control.egg-info/PKG-INFO
+[5.599s] writing dependency_links to ../../build/led_control/led_control.egg-info/dependency_links.txt
+[5.600s] writing entry points to ../../build/led_control/led_control.egg-info/entry_points.txt
+[5.601s] writing requirements to ../../build/led_control/led_control.egg-info/requires.txt
+[5.602s] writing top-level names to ../../build/led_control/led_control.egg-info/top_level.txt
+[5.611s] reading manifest file '../../build/led_control/led_control.egg-info/SOURCES.txt'
+[5.615s] writing manifest file '../../build/led_control/led_control.egg-info/SOURCES.txt'
+[5.616s] running build
+[5.616s] running build_py
+[5.617s] copying led_control/led_control_node.py -> /home/adavya/ros2_led_ws/build/led_control/build/lib/led_control
+[5.619s] running install
+[5.620s] running install_lib
+[5.624s] copying /home/adavya/ros2_led_ws/build/led_control/build/lib/led_control/led_control_node.py -> /home/adavya/ros2_led_ws/install/led_control/lib/python3.10/site-packages/led_control
+[5.627s] byte-compiling /home/adavya/ros2_led_ws/install/led_control/lib/python3.10/site-packages/led_control/led_control_node.py to led_control_node.cpython-310.pyc
+[5.629s] running install_data
+[5.630s] running install_egg_info
+[5.639s] removing '/home/adavya/ros2_led_ws/install/led_control/lib/python3.10/site-packages/led_control-0.0.0-py3.10.egg-info' (and everything under it)
+[5.641s] Copying ../../build/led_control/led_control.egg-info to /home/adavya/ros2_led_ws/install/led_control/lib/python3.10/site-packages/led_control-0.0.0-py3.10.egg-info
+[5.648s] running install_scripts
+[5.760s] Installing led_control_node script to /home/adavya/ros2_led_ws/install/led_control/lib/led_control
+[5.764s] writing list of installed files to '/home/adavya/ros2_led_ws/build/led_control/install.log'
+[6.003s] Invoked command in '/home/adavya/ros2_led_ws/src/led_control' returned '0': PYTHONPATH=/home/adavya/ros2_led_ws/build/led_control/prefix_override:/home/adavya/ros2_led_ws/install/led_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/led_control build --build-base /home/adavya/ros2_led_ws/build/led_control/build install --record /home/adavya/ros2_led_ws/build/led_control/install.log --single-version-externally-managed install_data

@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/led_control/led_control.egg-info
+writing ../../build/led_control/led_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/led_control/led_control.egg-info/dependency_links.txt
+writing entry points to ../../build/led_control/led_control.egg-info/entry_points.txt
+writing requirements to ../../build/led_control/led_control.egg-info/requires.txt
+writing top-level names to ../../build/led_control/led_control.egg-info/top_level.txt
+writing manifest file '../../build/led_control/led_control.egg-info/SOURCES.txt'
+reading manifest file '../../build/led_control/led_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/led_control/led_control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/adavya/ros2_led_ws/build/led_control/build
+creating /home/adavya/ros2_led_ws/build/led_control/build/lib
+creating /home/adavya/ros2_led_ws/build/led_control/build/lib/led_control
+copying led_control/led_control_node.py -> /home/adavya/ros2_led_ws/build/led_control/build/lib/led_control
+copying led_control/__init__.py -> /home/adavya/ros2_led_ws/build/led_control/build/lib/led_control
+running install
+running install_lib
+creating /home/adavya/ros2_led_ws/install/led_control/lib/python3.10/site-packages/led_control
+copying /home/adavya/ros2_led_ws/build/led_control/build/lib/led_control/led_control_node.py -> /home/adavya/ros2_led_ws/install/led_control/lib/python3.10/site-packages/led_control
+copying /home/adavya/ros2_led_ws/build/led_control/build/lib/led_control/__init__.py -> /home/adavya/ros2_led_ws/install/led_control/lib/python3.10/site-packages/led_control
+byte-compiling /home/adavya/ros2_led_ws/install/led_control/lib/python3.10/site-packages/led_control/led_control_node.py to led_control_node.cpython-310.pyc
+byte-compiling /home/adavya/ros2_led_ws/install/led_control/lib/python3.10/site-packages/led_control/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/adavya/ros2_led_ws/install/led_control/share/ament_index
+creating /home/adavya/ros2_led_ws/install/led_control/share/ament_index/resource_index
+creating /home/adavya/ros2_led_ws/install/led_control/share/ament_index/resource_index/packages
+copying resource/led_control -> /home/adavya/ros2_led_ws/install/led_control/share/ament_index/resource_index/packages
+copying package.xml -> /home/adavya/ros2_led_ws/install/led_control/share/led_control
+running install_egg_info
+Copying ../../build/led_control/led_control.egg-info to /home/adavya/ros2_led_ws/install/led_control/lib/python3.10/site-packages/led_control-0.0.0-py3.10.egg-info
+running install_scripts
+Installing led_control_node script to /home/adavya/ros2_led_ws/install/led_control/lib/led_control
+writing list of installed files to '/home/adavya/ros2_led_ws/build/led_control/install.log'

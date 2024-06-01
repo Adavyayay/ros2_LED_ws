@@ -1,0 +1,37 @@
+[4.798s] Invoking command in '/home/adavya/ros2_led_ws/src/keyboard_input_node': PYTHONPATH=/home/adavya/ros2_led_ws/build/keyboard_input_node/prefix_override:/home/adavya/ros2_led_ws/install/keyboard_input_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/keyboard_input_node build --build-base /home/adavya/ros2_led_ws/build/keyboard_input_node/build install --record /home/adavya/ros2_led_ws/build/keyboard_input_node/install.log --single-version-externally-managed install_data
+[6.047s] running egg_info
+[6.051s] creating ../../build/keyboard_input_node/keyboard_input_node.egg-info
+[6.052s] writing ../../build/keyboard_input_node/keyboard_input_node.egg-info/PKG-INFO
+[6.053s] writing dependency_links to ../../build/keyboard_input_node/keyboard_input_node.egg-info/dependency_links.txt
+[6.056s] writing entry points to ../../build/keyboard_input_node/keyboard_input_node.egg-info/entry_points.txt
+[6.057s] writing requirements to ../../build/keyboard_input_node/keyboard_input_node.egg-info/requires.txt
+[6.057s] writing top-level names to ../../build/keyboard_input_node/keyboard_input_node.egg-info/top_level.txt
+[6.058s] writing manifest file '../../build/keyboard_input_node/keyboard_input_node.egg-info/SOURCES.txt'
+[6.064s] reading manifest file '../../build/keyboard_input_node/keyboard_input_node.egg-info/SOURCES.txt'
+[6.068s] writing manifest file '../../build/keyboard_input_node/keyboard_input_node.egg-info/SOURCES.txt'
+[6.068s] running build
+[6.069s] running build_py
+[6.070s] creating /home/adavya/ros2_led_ws/build/keyboard_input_node/build
+[6.071s] creating /home/adavya/ros2_led_ws/build/keyboard_input_node/build/lib
+[6.073s] creating /home/adavya/ros2_led_ws/build/keyboard_input_node/build/lib/keyboard_input_node
+[6.074s] copying keyboard_input_node/keyboard_input_node.py -> /home/adavya/ros2_led_ws/build/keyboard_input_node/build/lib/keyboard_input_node
+[6.076s] copying keyboard_input_node/__init__.py -> /home/adavya/ros2_led_ws/build/keyboard_input_node/build/lib/keyboard_input_node
+[6.076s] running install
+[6.078s] running install_lib
+[6.080s] creating /home/adavya/ros2_led_ws/install/keyboard_input_node/lib/python3.10/site-packages/keyboard_input_node
+[6.080s] copying /home/adavya/ros2_led_ws/build/keyboard_input_node/build/lib/keyboard_input_node/keyboard_input_node.py -> /home/adavya/ros2_led_ws/install/keyboard_input_node/lib/python3.10/site-packages/keyboard_input_node
+[6.082s] copying /home/adavya/ros2_led_ws/build/keyboard_input_node/build/lib/keyboard_input_node/__init__.py -> /home/adavya/ros2_led_ws/install/keyboard_input_node/lib/python3.10/site-packages/keyboard_input_node
+[6.087s] byte-compiling /home/adavya/ros2_led_ws/install/keyboard_input_node/lib/python3.10/site-packages/keyboard_input_node/keyboard_input_node.py to keyboard_input_node.cpython-310.pyc
+[6.088s] byte-compiling /home/adavya/ros2_led_ws/install/keyboard_input_node/lib/python3.10/site-packages/keyboard_input_node/__init__.py to __init__.cpython-310.pyc
+[6.090s] running install_data
+[6.091s] creating /home/adavya/ros2_led_ws/install/keyboard_input_node/share/ament_index
+[6.092s] creating /home/adavya/ros2_led_ws/install/keyboard_input_node/share/ament_index/resource_index
+[6.096s] creating /home/adavya/ros2_led_ws/install/keyboard_input_node/share/ament_index/resource_index/packages
+[6.097s] copying resource/keyboard_input_node -> /home/adavya/ros2_led_ws/install/keyboard_input_node/share/ament_index/resource_index/packages
+[6.098s] copying package.xml -> /home/adavya/ros2_led_ws/install/keyboard_input_node/share/keyboard_input_node
+[6.099s] running install_egg_info
+[6.100s] Copying ../../build/keyboard_input_node/keyboard_input_node.egg-info to /home/adavya/ros2_led_ws/install/keyboard_input_node/lib/python3.10/site-packages/keyboard_input_node-0.0.0-py3.10.egg-info
+[6.105s] running install_scripts
+[6.197s] Installing keyboard_input_node script to /home/adavya/ros2_led_ws/install/keyboard_input_node/lib/keyboard_input_node
+[6.200s] writing list of installed files to '/home/adavya/ros2_led_ws/build/keyboard_input_node/install.log'
+[6.376s] Invoked command in '/home/adavya/ros2_led_ws/src/keyboard_input_node' returned '0': PYTHONPATH=/home/adavya/ros2_led_ws/build/keyboard_input_node/prefix_override:/home/adavya/ros2_led_ws/install/keyboard_input_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/keyboard_input_node build --build-base /home/adavya/ros2_led_ws/build/keyboard_input_node/build install --record /home/adavya/ros2_led_ws/build/keyboard_input_node/install.log --single-version-externally-managed install_data

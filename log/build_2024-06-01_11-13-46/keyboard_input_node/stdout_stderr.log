@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/keyboard_input_node/keyboard_input_node.egg-info
+writing ../../build/keyboard_input_node/keyboard_input_node.egg-info/PKG-INFO
+writing dependency_links to ../../build/keyboard_input_node/keyboard_input_node.egg-info/dependency_links.txt
+writing entry points to ../../build/keyboard_input_node/keyboard_input_node.egg-info/entry_points.txt
+writing requirements to ../../build/keyboard_input_node/keyboard_input_node.egg-info/requires.txt
+writing top-level names to ../../build/keyboard_input_node/keyboard_input_node.egg-info/top_level.txt
+writing manifest file '../../build/keyboard_input_node/keyboard_input_node.egg-info/SOURCES.txt'
+reading manifest file '../../build/keyboard_input_node/keyboard_input_node.egg-info/SOURCES.txt'
+writing manifest file '../../build/keyboard_input_node/keyboard_input_node.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/adavya/ros2_led_ws/build/keyboard_input_node/build
+creating /home/adavya/ros2_led_ws/build/keyboard_input_node/build/lib
+creating /home/adavya/ros2_led_ws/build/keyboard_input_node/build/lib/keyboard_input_node
+copying keyboard_input_node/keyboard_input_node.py -> /home/adavya/ros2_led_ws/build/keyboard_input_node/build/lib/keyboard_input_node
+copying keyboard_input_node/__init__.py -> /home/adavya/ros2_led_ws/build/keyboard_input_node/build/lib/keyboard_input_node
+running install
+running install_lib
+creating /home/adavya/ros2_led_ws/install/keyboard_input_node/lib/python3.10/site-packages/keyboard_input_node
+copying /home/adavya/ros2_led_ws/build/keyboard_input_node/build/lib/keyboard_input_node/keyboard_input_node.py -> /home/adavya/ros2_led_ws/install/keyboard_input_node/lib/python3.10/site-packages/keyboard_input_node
+copying /home/adavya/ros2_led_ws/build/keyboard_input_node/build/lib/keyboard_input_node/__init__.py -> /home/adavya/ros2_led_ws/install/keyboard_input_node/lib/python3.10/site-packages/keyboard_input_node
+byte-compiling /home/adavya/ros2_led_ws/install/keyboard_input_node/lib/python3.10/site-packages/keyboard_input_node/keyboard_input_node.py to keyboard_input_node.cpython-310.pyc
+byte-compiling /home/adavya/ros2_led_ws/install/keyboard_input_node/lib/python3.10/site-packages/keyboard_input_node/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/adavya/ros2_led_ws/install/keyboard_input_node/share/ament_index
+creating /home/adavya/ros2_led_ws/install/keyboard_input_node/share/ament_index/resource_index
+creating /home/adavya/ros2_led_ws/install/keyboard_input_node/share/ament_index/resource_index/packages
+copying resource/keyboard_input_node -> /home/adavya/ros2_led_ws/install/keyboard_input_node/share/ament_index/resource_index/packages
+copying package.xml -> /home/adavya/ros2_led_ws/install/keyboard_input_node/share/keyboard_input_node
+running install_egg_info
+Copying ../../build/keyboard_input_node/keyboard_input_node.egg-info to /home/adavya/ros2_led_ws/install/keyboard_input_node/lib/python3.10/site-packages/keyboard_input_node-0.0.0-py3.10.egg-info
+running install_scripts
+Installing keyboard_input_node script to /home/adavya/ros2_led_ws/install/keyboard_input_node/lib/keyboard_input_node
+writing list of installed files to '/home/adavya/ros2_led_ws/build/keyboard_input_node/install.log'
